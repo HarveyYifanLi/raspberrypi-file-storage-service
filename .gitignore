@@ -1,7 +1,11 @@
 # give me a .gitignore file for a node.js project that uses express and mongoose. Ignore node_modules, .env files, and any log files.
 # also ignore any files that MIGHT contain sensitive information such as api keys or database connection strings.
 node_modules/
+# do not upload data storage directory
+data/
+
 .env
+
 *.log
 *.key       
 *.pem
