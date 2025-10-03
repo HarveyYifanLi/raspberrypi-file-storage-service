@@ -1,0 +1,33 @@
+# give me a .gitignore file for a node.js project that uses express and mongoose. Ignore node_modules, .env files, and any log files.
+# also ignore any files that MIGHT contain sensitive information such as api keys or database connection strings.
+node_modules/
+.env
+*.log
+*.key       
+*.pem
+*.crt
+config.js
+secrets.js
+credentials.json
+.DS_Store
+.vscode/
+.idea/
+npm-debug.log*
+yarn-error.log
+coverage/
+# Ignore test coverage directory
+coverage/
+# Ignore build output
+build/
+dist/
+# Ignore OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Ignore IDE specific files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
